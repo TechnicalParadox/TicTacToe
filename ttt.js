@@ -7,13 +7,7 @@ function start()
   started = true;
 
   toggleStartButton();
-
-  if (playerX)
-  {
-    document.getElementById("turn").innerHTML = "X's Turn";
-  }
-  else
-    document.getElementById("turn").innerHTML = "O's Turn";
+  setTurn();
 }
 
 function placeMark(x)
@@ -26,6 +20,7 @@ function placeMark(x)
       document.getElementById(x).innerHTML = "O";
 
     playerX = !playerX;
+    setTurn();
   }
 }
 
@@ -36,4 +31,14 @@ function toggleStartButton()
   else
     document.getElementById("startbutton").style.visibility = "visible";
   startShowing = !startShowing;
+}
+
+function setTurn()
+{
+  if (playerX)
+  {
+    document.getElementById("turn").innerHTML = "X's Turn";
+  }
+  else
+    document.getElementById("turn").innerHTML = "O's Turn";
 }
