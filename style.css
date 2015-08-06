@@ -1,0 +1,49 @@
+body
+{
+  background-image: url("images/background.jpg");
+}
+#page
+{
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+}
+#mainbg
+{
+  padding: .5em;
+  background-color: #004C4C;
+  border-radius: 25px;
+}
+#mainfg
+{
+  border-radius: 20px;
+  padding: .25em;
+  background-color: gray;
+}
+h1.header
+{
+	font-family: Airstream, Airstream, monospace;
+	font-size: 200%;
+}
+header
+{
+  font-size: 150%;
+  font-family: monospace;
+}
+section
+{
+  font-size: 100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: .25em;
+  border-color: #004C4C;
+  font-family: Courier, Courier, monospace;
+}
+footer
+{
+}
+h3.footer
+{
+  padding-right: 2%;
+}
