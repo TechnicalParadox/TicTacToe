@@ -9,6 +9,12 @@ button
   font-size: 25px;
 }
 
+button.restartbutton
+{
+  font-size: 500px;
+  visibility: hidden;
+}
+
 h3
 {
 
@@ -47,11 +53,6 @@ body
   border-radius: 20px;
   padding: .25em;
   background-color: gray;
-}
-h1.header
-{
-	font-family: Airstream, Airstream, monospace;
-	font-size: 200%;
 }
 header
 {
